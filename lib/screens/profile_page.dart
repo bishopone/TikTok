@@ -43,8 +43,8 @@ class _ProfileState extends State<Profile> {
             width: 8,
           ),
         ],
-        title: Text(
-          'Abeselom',
+        title:const Text(
+          'Abeselom Ademe',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.black87,

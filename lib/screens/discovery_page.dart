@@ -126,11 +126,11 @@ class Discover extends StatelessWidget {
                                height: 150,
                                child: ListView.builder(
                                    scrollDirection: Axis.horizontal,
-                                   itemCount: 5,
+                                   itemCount: 6,
                                    itemBuilder: (ctx, x) {
                                      return Container(
                                        height: 60,
-                                       width: 120,
+                                       width: 90,
                                        child: Image.asset('images/$x.png'),
                                      );
                                    }),
